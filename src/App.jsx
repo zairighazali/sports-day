@@ -1,7 +1,7 @@
 export default function App() {
   // Component 1: EventHeader
   function EventHeader() {
-    return <h1>🏟️ Sports Day Schedule</h1>;
+    return <h1>Sports Day Schedule</h1>;
   }
 
   // Component 2: EventList
@@ -19,7 +19,7 @@ export default function App() {
   function EventLocation() {
     return (
       <div>
-        <h2>📍 Location</h2>
+        <h2>Location</h2>
         <p>Main Stadium, City Sports Complex</p>
       </div>
     );
@@ -29,7 +29,7 @@ export default function App() {
   function EventFooter() {
     return (
       <footer>
-        <p>🎉 See you there! Don’t forget your water bottle 💧</p>
+        <p>See you there! Don’t forget your water bottle </p>
       </footer>
     );
   }
